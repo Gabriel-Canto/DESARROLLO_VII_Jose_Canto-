@@ -16,7 +16,7 @@ $mensaje2 = "soy " . OCUPACION . ".";
 echo $mensaje1 . "<br>";
 print($mensaje2 . "<br>");
 
-printf("En resumen: %s, %d años, %s, %s<br>", $nombre, $edad, $correo, $telefono, OCUPACION);
+printf("En resumen: %s, %d años, %s, %s<br>", $nombre, $edad, $correo, $telefono .OCUPACION);
 
 echo "<br>Información de debugging:<br>";
 var_dump($nombre);
