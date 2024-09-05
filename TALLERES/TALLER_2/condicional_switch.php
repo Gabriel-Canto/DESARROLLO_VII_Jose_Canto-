@@ -54,18 +54,18 @@ switch ($mes) {
 echo "<br>";
 
 // Ejemplo de switch con expresiones
-$puntuacion = 85;
+$calificacion = 85;
 switch (true) {
-    case ($puntuacion >= 90):
+    case ($calificacion >= 90):
         echo "Excelente desempeño.<br>";
         break;
-    case ($puntuacion >= 80):
+    case ($calificacion >= 80):
         echo "Buen desempeño.<br>";
         break;
-    case ($puntuacion >= 70):
+    case ($calificacion >= 70):
         echo "Desempeño aceptable.<br>";
         break;
-    case ($puntuacion >= 60):
+    case ($calificacion >= 60):
         echo "Necesita mejorar.<br>";
         break;
     default:

@@ -29,3 +29,7 @@ echo "Pre-incremento (++c): " . ++$c . "<br>";
 echo "Valor final de c: $c<br>";
 ?>
     
+
+    git add TALLERES/TALLER_2/operadores_aritmeticos.php
+git commit -m "Agregado archivo de operadores aritméticos"
+    

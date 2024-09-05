@@ -15,17 +15,17 @@ echo "Nombre: '$nombre'<br>";
 echo "Saludo: $saludo<br><br>";
 
 // Comparación con if-else tradicional
-$puntuacion = 75;
-if ($puntuacion >= 60) {
+$calificacion = 75;
+if ($calificacion >= 60) {
     $resultado = "Aprobado";
 } else {
     $resultado = "Reprobado";
 }
-echo "Puntuación: $puntuacion<br>";
+echo "Puntuación: $calificacion<br>";
 echo "Resultado (if-else): $resultado<br>";
 
 // El mismo ejemplo con operador ternario
-$resultadoTernario = ($puntuacion >= 60) ? "Aprobado" : "Reprobado";
+$resultadoTernario = ($calificacion >= 60) ? "Aprobado" : "Reprobado";
 echo "Resultado (ternario): $resultadoTernario<br><br>";
 
 // Anidación de operadores ternarios (uso con precaución)
