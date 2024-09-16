@@ -1,4 +1,5 @@
 <?php
+$frase = "hola mundo";
 $contar_palabras = explode(" ", $frase);
 echo "el numero de palabras es: ", count($contar_palabras), "<br><br>";
 
